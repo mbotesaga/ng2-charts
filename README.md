@@ -1,59 +1,16 @@
-# Charts
+Project Structure
+The project contains the following components:
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+PieChartComponent: Displays a basic Pie chart.
+LineChartComponent: Displays a Line chart, useful for tracking data trends over time.
+BarChartComponent: Displays a Bar chart, great for comparing different categories or groups.
+DoughnutChartComponent: Displays a Doughnut chart, similar to the Pie chart but with a hole in the center.
 
-## Development server
+Each component follows the standard structure of an Angular component, with its own data and chart configurations.
 
-To start a local development server, run:
+Customization
+You can easily customize the charts in this project:![Uploading Screenshot from 2024-12-21 15-10-05.png…]()
+![Screenshot from 2024-12-21 15-22-57](https://github.com/user-attachments/assets/f2ec099c-32a3-4094-b737-812d19510a73)
 
-```bash
-ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Feel free to clone this project and modify it to fit your needs. If you have any questions or suggestions, feel free to open an issue or contribute!
